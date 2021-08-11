@@ -7,3 +7,15 @@ JOIN Salaries AS s USING (emp_no);
 SELECT first_name, last_name, hire_date
 FROM Employees
 WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31';
+
+-- Manager Details: dept number, dept name, manager employee number, last name, first name
+SELECT dm.dept_no, d.dept_name, dm.emp_no, e.last_name, e.first_name
+FROM Department_Managers AS dm
+JOIN Departments AS d USING (dept_no)
+JOIN Employees AS e USING (emp_no);
+
+-- Employee Departments: employee number, last name, first name, and department name
+SELECT de.emp_no, e.last_name, e.first_name, d.dept_name
+FROM Department_Employees AS de
+JOIN Departments AS d USING (dept_no)
+JOIN Employees AS e USING (emp_no);
