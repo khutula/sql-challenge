@@ -9,15 +9,16 @@
 
 <a name="introduction"></a>
 ### Introduction
-As the newest data engineer at Pewlett Hackard, I have been tasked with researching employees of the coporation from the 1980s and 1990s using only the remaining six CSV files from those years. I must perform both Data Engineering and Data Analysis on the dataset.
+As the newest data engineer at Pewlett Hackard, I have been tasked with researching employees of the coporation from the 1980s and 1990s using only the remaining six CSV files from those years. I must perform both Data Engineering and Data Analysis on the dataset. I have a sneaking suspicion that something isn't right here...
 
 <a name="objectives"></a>
 ### Objectives
 
-* Sketch out an ERD of the tables
-* Write an SQL script that creates the tables in the PostgreSQL database
-* Write an SQL script that runs requested queries
-* Use Python in Jupyter Notebook
+* Sketch out an ERD of the tables.
+* Write an SQL script that creates the tables in the PostgreSQL database.
+* Write an SQL script that runs requested queries.
+* Use Python in Jupyter Notebook to connect to the PostgreSQL database and pull query results into dataframes.
+* Plot dataframes to further investigate the data.
 
 <a name="technologies"></a>
 ### Technologies
